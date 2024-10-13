@@ -1,0 +1,14 @@
+.ovisack{
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    gap: 0px;
+
+}
+
+.model{
+    border:solid 2px blueviolet;
+    width: 50px;
+    height: 300px;
+    
+}
+

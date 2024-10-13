@@ -17,12 +17,12 @@ const loadCategories = () => {
   
   
   
-  const loadDataByCategoryLogo = () => {
-      fetch(`https://openapi.programming-hero.com/api/peddy/category/log`)
-          .then(res => res.json())
-          .then(data => displayData(data.data))
-          .catch(error => console.log(error));
-    }
+ const lodePetName= () =>{
+    fetch("https://openapi.programming-hero.com/api/peddy/pet/cat")
+    .then(res =>res.json())
+    .then(data =>console.log(data))
+    .catch(error =>console.log(error))
+ }
   
   
   const displayCategories = (categories) => {
